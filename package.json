@@ -4,5 +4,12 @@
   "main": "index.js",
   "repository": "https://github.com/naokie/playground.git",
   "author": "naokie",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "build": "poi build",
+    "dev": "poi"
+  },
+  "devDependencies": {
+    "poi": "^10.2.10"
+  }
 }
